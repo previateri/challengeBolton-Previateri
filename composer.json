@@ -1,0 +1,17 @@
+{
+    "name": "previateri/challenge-bolton",
+    "description": "Desafio proposto pela empresa Arquivei para avaliar o conhecimento da linguagem proposta e a assinatura de c\u0000digo do participante.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Thiago Previateri",
+            "email": "thiago.previateri@oulook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Previateri\\Bolton\\" : "Application"
+        }
+    }
+}
