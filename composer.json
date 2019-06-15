@@ -8,10 +8,11 @@
             "email": "thiago.previateri@oulook.com"
         }
     ],
-    "require": {},
+    "require": {
+    },
     "autoload": {
         "psr-4": {
-            "Previateri\\Bolton\\" : "Application"
+            "Previateri\\Bolton\\" : "src"
         }
     }
 }
