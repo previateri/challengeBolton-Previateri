@@ -12,7 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Previateri\\Bolton\\" : "src"
+            "Previateri\\Bolton\\" : "src",
+            "App\\" : "App"
         }
     }
 }

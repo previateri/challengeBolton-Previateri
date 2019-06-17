@@ -20,7 +20,7 @@ class BdConnection
         $fileConfig = $fileConfig->getParams();
         
         $stringPdo  = $fileConfig['dsn'] . ':host=' . $fileConfig['servername'] . ';dbname=' . $fileConfig['dbname'] .  ';port=' . $fileConfig['port'] . ';charset=utf8';
-        
+     
         $default_options = [
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
             PDO::ATTR_EMULATE_PREPARES => false,

@@ -24,20 +24,21 @@ class BdConfig extends Configs
     {
         $params['development'] = [
             'dsn'           => 'mysql',
-            'servername'    => 'localhost',
-            'port'          => '8083',
+            'servername'    => 'mysql',
+            'port'          => '3306',
             'username'      => 'root',
             'dbname'        => 'challengebolton_previateri',
             'password'      => 'rootpass',
+            'unix_socket' => '/tmp/mysql.sock',
         ];
 
         $params['production'] = [
-            'dsn'           => 'mysql',
-            'servername'    => 'localhost',
-            'port'          => '8083',
-            'username'      => 'root',
-            'dbname'        => 'challengebolton_previateri',
-            'password'      => 'rootpass',
+            'dsn'           => '',
+            'servername'    => '',
+            'port'          => '',
+            'username'      => '',
+            'dbname'        => '',
+            'password'      => '',
         ];
 
         $params['test'] = [

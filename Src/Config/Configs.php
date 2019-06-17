@@ -32,9 +32,8 @@ abstract class Configs
     {
       
         $fileEnvironment = dirname(dirname(__DIR__)) . '/.env';
-        
+
         if (!file_exists($fileEnvironment)) {
-           echo 'aqio'; die;
             return false;
         }
 
