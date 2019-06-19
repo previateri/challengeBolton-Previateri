@@ -30,7 +30,7 @@ Para a utilização e demonstração do funcionamento do sistema siga os seguint
 
 		docker-compose exec php-fpm composer install
 
-4. Faça a importação do banco do dump do banco de dados para o seu container Mysql:
+4. Faça a importação do dump do banco de dados para o seu container Mysql:
 
 		docker-compose exec mysql mysql -u root -prootpass < initSql.sql
 
