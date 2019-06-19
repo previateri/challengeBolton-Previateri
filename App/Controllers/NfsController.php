@@ -23,7 +23,7 @@ class NfsController
         $db = $dbConnection;
         $nfsModel = new \App\Models\NfsModel($db);
 
-        $response = $nfsModel->getOne(['access_key' => $params[1]]);
+        $response = $nfsModel->getOne(['access_key' => $params[1]])[0];
         //$response = $nfsModel->getAll();
 
         return $response;
