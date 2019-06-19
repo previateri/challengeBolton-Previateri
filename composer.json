@@ -9,11 +9,15 @@
         }
     ],
     "require": {
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
             "Previateri\\Bolton\\" : "src",
             "App\\" : "App"
         }
+    },
+    "scripts": {
+        "init-charge" : "php initialCharge.php"
     }
 }
